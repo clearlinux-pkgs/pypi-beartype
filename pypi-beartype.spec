@@ -5,7 +5,7 @@
 #
 Name     : pypi-beartype
 Version  : 0.16.2
-Release  : 3
+Release  : 4
 URL      : https://github.com/beartype/beartype/archive/v0.16.2/beartype-0.16.2.tar.gz
 Source0  : https://github.com/beartype/beartype/archive/v0.16.2/beartype-0.16.2.tar.gz
 Summary  : Unbearably fast runtime type checking in pure Python.
