@@ -6,10 +6,10 @@
 # autospec commit: 5905be9
 #
 Name     : pypi-beartype
-Version  : 0.18.4
-Release  : 17
-URL      : https://github.com/beartype/beartype/archive/v0.18.4/beartype-0.18.4.tar.gz
-Source0  : https://github.com/beartype/beartype/archive/v0.18.4/beartype-0.18.4.tar.gz
+Version  : 0.18.5
+Release  : 18
+URL      : https://github.com/beartype/beartype/archive/v0.18.5/beartype-0.18.5.tar.gz
+Source0  : https://github.com/beartype/beartype/archive/v0.18.5/beartype-0.18.5.tar.gz
 Summary  : Unbearably fast runtime type checking in pure Python.
 Group    : Development/Tools
 License  : MIT
@@ -66,10 +66,10 @@ python3 components for the pypi-beartype package.
 
 
 %prep
-%setup -q -n beartype-0.18.4
-cd %{_builddir}/beartype-0.18.4
+%setup -q -n beartype-0.18.5
+cd %{_builddir}/beartype-0.18.5
 pushd ..
-cp -a beartype-0.18.4 buildavx2
+cp -a beartype-0.18.5 buildavx2
 popd
 
 %build
@@ -77,7 +77,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1713536006
+export SOURCE_DATE_EPOCH=1713806532
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
